@@ -1,16 +1,7 @@
-# techtaste
+# Projeto TechTaste
 
-A new Flutter project.
+<h2>
+Projeto de um aplicativo de delivery em Dart e Flutter criado na imersão mobile da Alura.
+</h2>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## [Link do Projeto na Alura](https://www.alura.com.br/imersao-mobile/aula01-mobile?utm_campaign=11569154-%5BImers%C3%A3o%20Mobile%5D%20Semana%20de%20Aulas&utm_medium=email&_hsenc=p2ANqtz-_cBwABMVjA9y04hD3QZOXF4LG6QKj-xsxfHatS4Mr0WhMiaZJlRVIJJI667RH9wHNp1phIv5KO7yC74Q0SA0lImlgZhw&_hsmi=356673192&utm_content=356673192)
