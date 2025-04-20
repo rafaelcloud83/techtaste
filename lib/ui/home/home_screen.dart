@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:techtaste/data/categories_data.dart';
 import 'package:techtaste/data/restaurant_data.dart';
 import 'package:techtaste/model/restaurant.dart';
+import 'package:techtaste/ui/_core/widgets/appbar.dart';
 import 'package:techtaste/ui/home/widgets/category_widget.dart';
 import 'package:techtaste/ui/home/widgets/restaurant_widget.dart';
 
@@ -14,11 +15,7 @@ class HomeScreen extends StatelessWidget {
     RestaurantData restaurantData = Provider.of<RestaurantData>(context);
     return Scaffold(
       drawer: Drawer(),
-      appBar: AppBar(
-        actions: [
-          IconButton(icon: const Icon(Icons.shopping_cart), onPressed: () {}),
-        ],
-      ),
+      appBar: getAppBar(context: context),
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 24.0),
         child: SingleChildScrollView(
@@ -26,10 +23,16 @@ class HomeScreen extends StatelessWidget {
             spacing: 32.0,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Center(child: Image.asset('assets/logo.png', width: 147.0)),
-              Text('Boas vindas!'),
+              Center(child: Image.asset('assets/logo.png', width: 192.0)),
+              Text(
+                'Boas vindas!',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+              ),
               TextFormField(),
-              Text('Escolha por categorias'),
+              Text(
+                'Escolha por categorias',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+              ),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(
